@@ -4,7 +4,7 @@ const TextFormatting: React.FC = () => {
     return (
         <section>
             <header>
-                <h1>Форматирование текста:</h1>
+                <h2>Форматирование текста:</h2>
             </header>
             <p>
                 <strong>Жирный текст b или strong</strong>

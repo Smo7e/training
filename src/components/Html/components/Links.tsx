@@ -4,9 +4,14 @@ const Links: React.FC = () => {
     return (
         <section>
             <header>
-                <h1>Ссылки (гиперссылки) - тег {`<a>`}</h1>
+                <h2>Ссылки (гиперссылки) - тег {`<a>`}</h2>
             </header>
-            <a href="https://www.example.com" target="_blank" rel={"noopener noreferrer"} title="Перейти на сайт Example">
+            <a
+                href="https://www.example.com"
+                target="_blank"
+                rel={"noopener noreferrer"}
+                title="Перейти на сайт Example"
+            >
                 Сайт Example
             </a>
             <h3>Атрибуты</h3>

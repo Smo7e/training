@@ -4,13 +4,13 @@ const SemanticHtml: React.FC = () => {
     return (
         <section>
             <header>
-                <h1>Cемантические теги:</h1>
+                <h2>Cемантические теги:</h2>
             </header>
             <figure>
                 <img
                     src="https://i.pinimg.com/736x/3c/97/55/3c97554e2fd567c875ba1de854350e7e.jpg"
                     alt="Семантические элементы HTML5"
-                    width="300px"
+                    width="300"
                 />
                 <figcaption>Картинка Семантических элементов HTML5</figcaption>
             </figure>
@@ -31,8 +31,8 @@ const SemanticHtml: React.FC = () => {
             <h3>summary</h3>
             <p> Определяет видимый заголовок элемента details</p>
             <details>
-                Хопа
                 <summary>Пример</summary>
+                The picture frame is available in its natural wood color, or with black stain.
             </details>
             <h3>figure</h3>
             <p>Определяет самостоятельное содержание, такое как иллюстрации, диаграммы, фотографии, код и т.д.</p>

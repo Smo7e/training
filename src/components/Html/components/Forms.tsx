@@ -4,10 +4,10 @@ const Forms: React.FC = () => {
     return (
         <section>
             <header>
-                <h1>Основной тег {`<form>`}</h1>
+                <h2>Основной тег {`<form>`}</h2>
             </header>
 
-            <form autoComplete="true" style={{ backgroundColor: "yellow", opacity: 1, display: "block" }}>
+            <form style={{ backgroundColor: "yellow", opacity: 1, display: "block" }}>
                 <h2>Input</h2>
                 <p>Суем input внутри label чтобы связать</p>
 
@@ -36,54 +36,58 @@ const Forms: React.FC = () => {
 
                 <label>
                     type="date", type="time", type="datetime-local":
-                    <input type="date" placeholder="placeholder" />
+                    <input type="date" />
                 </label>
 
                 <label>
                     type="color":
-                    <input type="color" placeholder="placeholder" />
+                    <input type="color" />
                 </label>
 
                 <label>
                     type="range":
-                    <input type="range" placeholder="placeholder" />
+                    <input type="range" />
                 </label>
 
                 <label>
                     type="checkbox":
-                    <input type="checkbox" placeholder="placeholder" />
+                    <input type="checkbox" />
                 </label>
 
                 <label>
                     type="radio":
-                    <input type="radio" name="1" placeholder="placeholder" />
-                    <input type="radio" name="1" placeholder="placeholder" />
-                    <input type="radio" name="1" placeholder="placeholder" />
+                    <input type="radio" name="1" />
+                </label>
+                <label>
+                    <input type="radio" name="1" />
+                </label>
+                <label>
+                    <input type="radio" name="1" />
                 </label>
 
                 <label>
                     type="file":
-                    <input type="file" accept=".jpg" placeholder="placeholder" />
+                    <input type="file" accept=".jpg" />
                 </label>
 
                 <label>
                     type="hidden"
-                    <input type="hidden" placeholder="placeholder" defaultValue="ахуеть меня нет" />
+                    <input type="hidden" defaultValue="ахуеть меня нет" />
                 </label>
 
                 <label>
                     type="submit":
-                    <input type="submit" placeholder="placeholder" />
+                    <input type="submit" />
                 </label>
 
                 <label>
                     type="reset":
-                    <input type="reset" placeholder="placeholder" />
+                    <input type="reset" />
                 </label>
 
                 <label>
                     type="button":
-                    <input type="button" placeholder="placeholder" />
+                    <input type="button" value={"button"} />
                 </label>
             </form>
             <hr />

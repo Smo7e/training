@@ -4,7 +4,7 @@ const Images: React.FC = () => {
     return (
         <section>
             <header>
-                <h1>Изображения - тег {`<img>`}</h1>
+                <h2>Изображения - тег {`<img>`}</h2>
             </header>
             <figure>
                 <img

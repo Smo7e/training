@@ -4,7 +4,7 @@ const MainTags: React.FC = () => {
     return (
         <section>
             <header>
-                <h1>Основные теги:</h1>
+                <h2>Основные теги:</h2>
             </header>
 
             <h1>h1</h1>
