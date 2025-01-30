@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Link, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home.tsx";
 import NotFound from "./components/NotFound/NotFound.tsx";
 import Html from "./components/Html/Html.tsx";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <header className={"main-header"}>
                 <span>Это типо header (кнопки тоже)</span>
                 <nav className={"main-nav"}>
@@ -27,7 +27,7 @@ function App() {
                 </Routes>
             </main>
             <footer className={"main-footer"}>Это типо footer </footer>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
