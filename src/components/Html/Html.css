@@ -1,0 +1,9 @@
+.html-container {
+    text-align: center;
+}
+li {
+    text-align: left;
+}
+label {
+    display: block;
+}
