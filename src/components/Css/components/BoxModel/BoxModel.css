@@ -1,0 +1,30 @@
+.css-padding {
+    padding: 5px 10px 15px 20px;
+    background-color: aqua;
+}
+.css-margin {
+    margin: 5px 10px 15px 20px;
+    background-color: aqua;
+}
+.css-border {
+    border-width: 15px;
+    border-color: red;
+}
+.css-padding,
+.css-border,
+.css-margin {
+    display: block;
+    margin: 10px 0px 10px 0px;
+    height: 30px;
+    width: 600px;
+}
+
+.css-box-sizing {
+    border: 5px solid blueviolet;
+    text-align: center;
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+}
