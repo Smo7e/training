@@ -5,6 +5,7 @@ import Home from "./components/Home/Home.tsx";
 import NotFound from "./components/NotFound/NotFound.tsx";
 import Html from "./components/Html/Html.tsx";
 import Css from "./components/Css/Css.tsx";
+import Js from "./components/Js/Js.tsx";
 
 function App() {
     return (
@@ -21,6 +22,9 @@ function App() {
                     <Link className={"main-link"} to="/css">
                         Изучение CSS
                     </Link>
+                    <Link className={"main-link"} to="/js">
+                        Изучение Js
+                    </Link>
                 </nav>
             </header>
             <main className="main-main">
@@ -28,6 +32,8 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/html" element={<Html />} />
                     <Route path="/css" element={<Css />} />
+                    <Route path="/js" element={<Js />} />
+
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </main>
