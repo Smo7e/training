@@ -1,4 +1,6 @@
 import React from "react";
+import ArrayC from "./components/Array/ArrayC.tsx";
+import MapSet from "./components/MapSet/MapSet.tsx";
 
 const Js: React.FC = () => {
     const obj = {
@@ -90,6 +92,8 @@ const Js: React.FC = () => {
             <code>Object.assign(dest, [src1, src2, src3...])</code>
             <p>Копирование обьекта(все свойства в обьект dest)</p>
             <code>cloneObj = &#123;...obj&#125;</code>
+            <ArrayC />
+            <MapSet />
         </section>
     );
 };
